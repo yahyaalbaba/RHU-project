@@ -1,0 +1,109 @@
+
+.navbg{
+    background-color: #244c33;
+}
+.hr{
+    border: 5px solid green;
+    position: relative;
+    top: 80px;
+}
+.my-cart{
+    position: absolute;
+    top: 120px;
+    left: 100px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.product-img{
+    width: 100px;
+}
+.product-name{
+    font-size: 20px;
+}
+
+.sect{
+    margin-top: 30px;
+    margin-left: 80px;
+    width: 1150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.img-name{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-right: auto;
+}
+
+.product-price{
+    font-size: 20px;
+}
+.product-quantity{
+    font-size: 18px;
+}
+.product-button{
+
+}
+.product-numbers{
+    display: flex;
+    gap: 70px;
+    align-items: center;
+    margin-right: 50px;
+    
+}
+.product-flex{
+    display: flex;
+    gap: 150px;
+}
+.product-item{
+    border: 2px solid #244c33;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.price-text{
+    position: relative;
+    left: 520px;
+    top: 20px;
+}
+.quantity-text{
+    position: relative;
+    left: 630px;
+    top: -17px;
+}
+.bill{
+    border: 2px solid #244c33;
+    border-radius: 5px;
+    width: 300px;
+    font-size: 30px;
+    
+}
+.products-price{
+    display: flex;
+    gap: 100px;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.delivery-Charge{
+    display: flex;
+    gap: 100px;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.total{
+    display: flex;
+    gap: 100px;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.chck-btn{
+    
+}
