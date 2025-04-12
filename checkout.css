@@ -1,0 +1,30 @@
+.navbg{
+    background-color: #244C33;
+}
+.form-sec{
+    margin: 100px;
+    width: 700px;
+}
+.confirm{
+    position: relative;
+    left: 420px;
+    top: -50px;
+}
+.bill{
+    width: 275px;
+    padding: 10px;
+    border: 2px solid #244C33;
+    border-radius: 5px;
+    position: relative;
+    top: -330px;
+    left: 850px;
+
+}
+.bills{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+.Bill{
+    margin-left: 100px;
+}

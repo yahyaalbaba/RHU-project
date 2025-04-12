@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <title>IDONTKNOW</title>
+    <style>
+    
+        /* Your CSS styling here */
+        body {
+            background-color: #F0D7CC;
+            font-family: sans-serif;
+            font-weight: bold;
+        }
+
+        .product-card {
+            background-color: white;
+            width: 300px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            margin: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            font-family: sans-serif;
+        }
+
+        .product-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .product-card .details {
+            padding: 15px;
+        }
+
+        .product-card h2 {
+            font-size: 1.2em;
+            margin-bottom: 5px;
+            font-family: sans-serif;
+            font-weight: bold;
+        }
+
+        .product-card p {
+            font-size: 0.9em;
+            color: #666;
+            margin-bottom: 10px;
+        }
+
+        .product-card .price {
+            font-size: 1.1em;
+            font-weight: bold;
+            color: #244C33;
+            margin-bottom: 10px;
+        }
+
+        .product-card .buttons {
+            display: flex;
+            justify-content: space-between;
+            font-size: 16px;
+        }
+
+        .product-card button {
+            padding: 8px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 0.9em;
+        }
+
+        .product-card .add-to-cart {
+            background-color: #244C33;
+            color: white;
+        }
+
+        .product-card .more-info {
+            background-color: white;
+            border: 1px solid #244C33;
+            color: white;
+            color: black;
+        }
+
+        .price {
+            margin-right: 50px;
+            margin-bottom: 20px;
+            font-size: 40px;
+        }
+
+        .bi-dash-lg {
+            color: red;
+        }
+
+        .bi-plus-lg {
+            color: green;
+        }
+
+        .btn-infr {
+            margin-left: 15px;
+        }
+
+        .shop {
+            display: grid;
+            grid-template-columns: repeat(3, 223px);
+            gap: 120px;
+            justify-content: center;
+            margin-right: 160px;
+        }
+
+        @media (max-width: 1000px) {
+            .shop {
+                grid-template-columns: repeat(2, 223px);
+            }
+        }
+
+        @media (max-width: 500px) {
+            .shop {
+                grid-template-columns: repeat(1, 223px);
+            }
+        }
+
+        .navbg {
+            background-color: #244C33;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbg py-3" style="position: sticky;
+    top: 0;
+    z-index: 1000;">
+        <div class="container-fluid ps-5">
+            <a class="navbar-brand text-light" href="index.html"><img style="height: 45px; width: 150px;" src="logo.png"></a>    
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto pe-4">
+                    <li class="nav-item">
+                        <a class="nav-link active text-light" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="Products.html">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="cart.html">Cart</a>
+                    </li>
+                    <li class="nav-item text-light">
+                        <a href="Contact-Us.html" class="nav-link text-light">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="text-center text-dark pt-5 pb-2 me-4">
+        <h1 style="color: #404040; font-size: 45px; font-weight:bold;">Books</h1>
+    </section>
+
+    <section class="p-5 ms-5">
+        <div class="shop" id="shop"></div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+    <script src="Products.js"></script>
+    <script> window.chtlConfig = { chatbotId: "9842191646" } </script>
+    <script async data-id="9842191646" id="chatling-embed-script" type="text/javascript" src="https://chatling.ai/js/embed.js"></script>
+</body>
+</html>
